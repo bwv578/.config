@@ -17,6 +17,7 @@
 !komorebi/*
 
 # 기타
+!README.md
 !whkdrc
 !nwg-dock-pinned
 !screenshot-area.sh
