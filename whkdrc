@@ -12,7 +12,7 @@ alt + i                 : komorebic toggle-shortcuts
 # alt + f                 : if ($wshell.AppActivate('Firefox') -eq $False) { start firefox }
 # alt + b                 : if ($wshell.AppActivate('Chrome') -eq $False) { start chrome }
 
-alt + q                 : komorebic close
+win + q                 : komorebic close
 alt + m                 : komorebic minimize
 
 # Focus windows
@@ -25,10 +25,10 @@ alt + shift + oem_4     : komorebic cycle-focus previous # oem_4 is [
 alt + shift + oem_6     : komorebic cycle-focus next # oem_6 is ]
 
 # Move windows
-alt + left              : komorebic move left
-alt + down              : komorebic move down
-alt + up                : komorebic move up
-alt + right             : komorebic move right
+win + left              : komorebic move left
+win + down              : komorebic move down
+win + up                : komorebic move up
+win + right             : komorebic move right
 
 alt + shift + return    : komorebic promote
 
@@ -42,10 +42,10 @@ alt + shift + return    : komorebic promote
 #alt + oem_6             : komorebic cycle-stack next # oem_6 is ]
 
 # Resize
-alt + oem_plus          : komorebic resize-axis horizontal increase
-alt + oem_minus         : komorebic resize-axis horizontal decrease
-alt + shift + oem_plus  : komorebic resize-axis vertical increase
-alt + shift + oem_minus : komorebic resize-axis vertical decrease
+alt + right             : komorebic resize-axis horizontal increase
+alt + left              : komorebic resize-axis horizontal decrease
+alt + up                : komorebic resize-axis vertical increase
+alt + down              : komorebic resize-axis vertical decrease
 
 # Manipulate windows
 alt + t                 : komorebic toggle-float
@@ -70,11 +70,11 @@ control + 7                 : komorebic focus-workspace 6
 control + 8                 : komorebic focus-workspace 7
 
 # Move windows across workspaces
-alt + 1         : komorebic move-to-workspace 0
-alt + 2         : komorebic move-to-workspace 1
-alt + 3         : komorebic move-to-workspace 2
-alt + 4         : komorebic move-to-workspace 3
-alt + 5         : komorebic move-to-workspace 4
-alt + 6         : komorebic move-to-workspace 5
-alt + 7         : komorebic move-to-workspace 6
-alt + 8         : komorebic move-to-workspace 7
+win + 1         : komorebic move-to-workspace 0
+win + 2         : komorebic move-to-workspace 1
+win + 3         : komorebic move-to-workspace 2
+win + 4         : komorebic move-to-workspace 3
+win + 5         : komorebic move-to-workspace 4
+win + 6         : komorebic move-to-workspace 5
+win + 7         : komorebic move-to-workspace 6
+win + 8         : komorebic move-to-workspace 7
