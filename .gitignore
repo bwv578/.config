@@ -17,6 +17,10 @@
 !komorebi/
 !komorebi/*
 
+# kitty
+!kitty/
+!kitty/*
+
 # 기타
 !README.md
 !whkdrc
