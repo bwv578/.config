@@ -9,7 +9,7 @@ cd ~/.config
 git init
 
  # 2. Link remote 
-git remote add origin https://github.com/bwv578/.config.git
+git remote add origin https://github.com/the-legend-0f-zelda/.config.git
 
  # 3. Fetch
 git fetch origin
