@@ -9,6 +9,10 @@
 !hypr/hyprland.conf
 !hypr/clamshell.sh
 
+# nwg-dock-hyprland
+!nwg-dock-hyprland/
+!nwg-dock-hyprland/*
+
 # fcitx5
 !fcitx5/
 !fcitx5/config
