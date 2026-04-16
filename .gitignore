@@ -25,6 +25,10 @@
 !kitty/
 !kitty/*
 
+# wezterm
+!wezterm/
+!wezterm/*
+
 # 기타
 !README.md
 !whkdrc
